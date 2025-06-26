@@ -1,0 +1,2 @@
+# runing
+Runing oyunu 
