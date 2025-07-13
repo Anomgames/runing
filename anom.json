@@ -68,5 +68,27 @@
     "artwork": "https://samplesongs.netlify.app/album-arts/without-me.jpg",
     "url": "https://filesamples.com/samples/audio/mp3/sample4.mp3",
     "id": "10"
+  },
+  ,
+  {
+    "başlık": "Aşk Laftan Anlamaz",
+    "sanatçı": "Emrah",
+    "sanat eseri": "https://cdn.jsdelivr.net/gh/Anomgames/muzik-cdn/emrah.jpg",
+    "url": "https://cdn.jsdelivr.net/gh/Anomgames/muzik-cdn/ask-laftan-anlamaz.mp3",
+    "id": "11"
+  },
+  {
+    "başlık": "Resimdeki Gözyaşları",
+    "sanatçı": "Cem Karaca",
+    "sanat eseri": "https://cdn.jsdelivr.net/gh/Anomgames/muzik-cdn/cemkaraca.jpg",
+    "url": "https://cdn.jsdelivr.net/gh/Anomgames/muzik-cdn/resimdeki.mp3",
+    "id": "12"
+  },
+  {
+    "başlık": "İstanbul",
+    "sanatçı": "Teoman",
+    "sanat eseri": "https://cdn.jsdelivr.net/gh/Anomgames/muzik-cdn/teoman.jpg",
+    "url": "https://cdn.jsdelivr.net/gh/Anomgames/muzik-cdn/istanbul.mp3",
+    "id": "13"
   }
 ]
