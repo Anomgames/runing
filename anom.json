@@ -1,31 +1,72 @@
-[43dcd9a7-70db-4a1f-b0ae-981daa162054](https://github.com/sangram37/new_redux/tree/f7cfabaa4472344ddbd10811dad1c72a35902272/src%2FScreen%2FTinder%2FTinder.js?citationMarker=43dcd9a7-70db-4a1f-b0ae-981daa162054 "1")[
-  { "title": "Death Bed", "artist": "Powfu", "artwork": "https://samplesongs.netlify.app/album-arts/death-bed.jpg", "url": "https://samplesongs.netlify.app/Death%20Bed.mp3", "id": "1" },
-  { "title": "Bad Liar", "artist": "Imagine Dragons", "artwork": "https://samplesongs.netlify.app/album-arts/bad-liar.jpg", "url": "https://samplesongs.netlify.app/Bad%20Liar.mp3", "id": "2" },
-  { "title": "Faded", "artist": "Alan Walker", "artwork": "https://samplesongs.netlify.app/album-arts/faded.jpg", "url": "https://samplesongs.netlify.app/Faded.mp3", "id": "3" },
-  { "title": "Hate Me", "artist": "Ellie Goulding", "artwork": "https://samplesongs.netlify.app/album-arts/hate-me.jpg", "url": "https://samplesongs.netlify.app/Hate%20Me.mp3", "id": "4" },
-  { "title": "Solo", "artist": "Clean Bandit", "artwork": "https://samplesongs.netlify.app/album-arts/solo.jpg", "url": "https://samplesongs.netlify.app/Solo.mp3", "id": "5" },
-  { "title": "Without Me", "artist": "Halsey", "artwork": "https://samplesongs.netlify.app/album-arts/without-me.jpg", "url": "https://samplesongs.netlify.app/Without%20Me.mp3", "id": "6" },
-  { "title": "Neon Dreams", "artist": "ByAnoFy", "artwork": "https://i.ibb.co/j8XbQ7n/neon-dreams.jpg", "url": "https://filesamples.com/samples/audio/mp3/sample3.mp3", "id": "7" },
-  { "title": "Midnight Flow", "artist": "Anom Beats", "artwork": "https://i.ibb.co/GdTmhqC/midnight-flow.jpg", "url": "https://filesamples.com/samples/audio/mp3/sample1.mp3", "id": "8" },
-  { "title": "Sky Pulse", "artist": "AnoWave", "artwork": "https://i.ibb.co/zsJygKJ/sky-pulse.jpg", "url": "https://filesamples.com/samples/audio/mp3/sample2.mp3", "id": "9" },
-  { "title": "Chill Drift", "artist": "BYAS Mode", "artwork": "https://i.ibb.co/HFBCZxB/chill-drift.jpg", "url": "https://filesamples.com/samples/audio/mp3/sample4.mp3", "id": "10" },
-  { "title": "Ghost City", "artist": "EchoLab", "artwork": "https://i.ibb.co/vwYYvd2/ghost-city.jpg", "url": "https://filesamples.com/samples/audio/mp3/sample5.mp3", "id": "11" },
-  { "title": "Golden Hour", "artist": "AnomSunset", "artwork": "https://i.ibb.co/m9YvWjM/golden-hour.jpg", "url": "https://filesamples.com/samples/audio/mp3/sample6.mp3", "id": "12" },
-  { "title": "Synth Magic", "artist": "AnoSynth", "artwork": "https://i.ibb.co/4Jm6tqd/synth-magic.jpg", "url": "https://filesamples.com/samples/audio/mp3/sample7.mp3", "id": "13" },
-  { "title": "Nightvision", "artist": "Anom Realm", "artwork": "https://i.ibb.co/SK1FRYt/nightvision.jpg", "url": "https://filesamples.com/samples/audio/mp3/sample8.mp3", "id": "14" },
-  { "title": "Digital Sunset", "artist": "CodeWave", "artwork": "https://i.ibb.co/YcNcVyK/digital-sunset.jpg", "url": "https://filesamples.com/samples/audio/mp3/sample9.mp3", "id": "15" },
-  { "title": "Edge of Sound", "artist": "BYAS Echo", "artwork": "https://i.ibb.co/XJ2PYdm/edge-of-sound.jpg", "url": "https://filesamples.com/samples/audio/mp3/sample10.mp3", "id": "16" },
-  { "title": "Flashback Funk", "artist": "RetroDrive", "artwork": "https://i.ibb.co/vmGVTr5/flashback.jpg", "url": "https://filesamples.com/samples/audio/mp3/sample11.mp3", "id": "17" },
-  { "title": "Cloud Racer", "artist": "SpeedAno", "artwork": "https://i.ibb.co/TgZCdbw/cloud-racer.jpg", "url": "https://filesamples.com/samples/audio/mp3/sample12.mp3", "id": "18" },
-  { "title": "Deep Signal", "artist": "PulseLab", "artwork": "https://i.ibb.co/N1vKqM4/deep-signal.jpg", "url": "https://filesamples.com/samples/audio/mp3/sample13.mp3", "id": "19" },
-  { "title": "Retro Hearts", "artist": "AnomRetro", "artwork": "https://i.ibb.co/BZgsjFx/retro-hearts.jpg", "url": "https://filesamples.com/samples/audio/mp3/sample14.mp3", "id": "20" },
-  { "title": "Bassline Mirage", "artist": "Anomaly Beats", "artwork": "https://i.ibb.co/0q5S9Zc/bassline.jpg", "url": "https://filesamples.com/samples/audio/mp3/sample15.mp3", "id": "21" },
-  { "title": "Silhouette Sound", "artist": "EchoVision", "artwork": "https://i.ibb.co/tC9KZTw/silhouette.jpg", "url": "https://filesamples.com/samples/audio/mp3/sample16.mp3", "id": "22" },
-  { "title": "Quantum Step", "artist": "Bitstream", "artwork": "https://i.ibb.co/gTLzGzd/quantum-step.jpg", "url": "https://filesamples.com/samples/audio/mp3/sample17.mp3", "id": "23" },
-  { "title": "Shadow Glide", "artist": "NocturneX", "artwork": "https://i.ibb.co/dJ0q7RZ/shadow-glide.jpg", "url": "https://filesamples.com/samples/audio/mp3/sample18.mp3", "id": "24" },
-  { "title": "ByAnoFy Anthem", "artist": "AnomGames", "artwork": "https://i.ibb.co/d5mNyKH/byanofy.jpg", "url": "https://filesamples.com/samples/audio/mp3/sample19.mp3", "id": "25" },
-  { "title": "Electric Breeze", "artist": "AnoSynth", "artwork": "https://i.ibb.co/W3c6q3T/electric-breeze.jpg", "url": "https://filesamples.com/samples/audio/mp3/sample20.mp3", "id": "26" },
-  { "title": "Pixel Rain", "artist": "DigitalDust", "artwork": "https://i.ibb.co/YN77SwQ/pixel-rain.jpg", "url": "https://filesamples.com/samples/audio/mp3/sample21.mp3", "id": "27" },
-  { "title": "Infinite Loop", "artist": "CodeNoise", "artwork": "https://i.ibb.co/bgvRQ8j/infinite-loop.jpg", "url": "https://filesamples.com/samples/audio/mp3/sample22.mp3", "id": "28" },
-  { "title": "Twilight Circuit", "artist": "WaveZone", "artwork": "https://i.ibb.co/WFDndzL/twilight-circuit.jpg", "url": "https://filesamples.com/samples/audio/mp3/sample23.mp3", "id": "29" },
-  { "title": "Echo Drift", "artist": "Anomflow", "artwork": "https://i.ibb.co/ChRkkpN/echo-drift.jpg", "url": "https
+[
+  {
+    "title": "Death Bed",
+    "artist": "Powfu",
+    "artwork": "https://samplesongs.netlify.app/album-arts/death-bed.jpg",
+    "url": "https://samplesongs.netlify.app/Death%20Bed.mp3",
+    "id": "1"
+  },
+  {
+    "title": "Bad Liar",
+    "artist": "Imagine Dragons",
+    "artwork": "https://samplesongs.netlify.app/album-arts/bad-liar.jpg",
+    "url": "https://samplesongs.netlify.app/Bad%20Liar.mp3",
+    "id": "2"
+  },
+  {
+    "title": "Faded",
+    "artist": "Alan Walker",
+    "artwork": "https://samplesongs.netlify.app/album-arts/faded.jpg",
+    "url": "https://samplesongs.netlify.app/Faded.mp3",
+    "id": "3"
+  },
+  {
+    "title": "Hate Me",
+    "artist": "Ellie Goulding",
+    "artwork": "https://samplesongs.netlify.app/album-arts/hate-me.jpg",
+    "url": "https://samplesongs.netlify.app/Hate%20Me.mp3",
+    "id": "4"
+  },
+  {
+    "title": "Solo",
+    "artist": "Clean Bandit",
+    "artwork": "https://samplesongs.netlify.app/album-arts/solo.jpg",
+    "url": "https://samplesongs.netlify.app/Solo.mp3",
+    "id": "5"
+  },
+  {
+    "title": "Without Me",
+    "artist": "Halsey",
+    "artwork": "https://samplesongs.netlify.app/album-arts/without-me.jpg",
+    "url": "https://samplesongs.netlify.app/Without%20Me.mp3",
+    "id": "6"
+  },
+  {
+    "title": "Neon Dreams",
+    "artist": "ByAnoFy",
+    "artwork": "https://i.ibb.co/j8XbQ7n/neon-dreams.jpg",
+    "url": "https://filesamples.com/samples/audio/mp3/sample3.mp3",
+    "id": "7"
+  },
+  {
+    "title": "Midnight Flow",
+    "artist": "Anom Beats",
+    "artwork": "https://i.ibb.co/GdTmhqC/midnight-flow.jpg",
+    "url": "https://filesamples.com/samples/audio/mp3/sample1.mp3",
+    "id": "8"
+  },
+  {
+    "title": "Golden Hour",
+    "artist": "AnomSunset",
+    "artwork": "https://i.ibb.co/m9YvWjM/golden-hour.jpg",
+    "url": "https://filesamples.com/samples/audio/mp3/sample6.mp3",
+    "id": "9"
+  },
+  {
+    "title": "Chill Drift",
+    "artist": "BYAS Mode",
+    "artwork": "https://i.ibb.co/HFBCZxB/chill-drift.jpg",
+    "url": "https://filesamples.com/samples/audio/mp3/sample4.mp3",
+    "id": "10"
+  }
+]
