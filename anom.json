@@ -1,72 +1,72 @@
 [
   {
-    "title": "Coffee Break",
-    "artist": "LoFlow",
+    "title": "Death Bed",
+    "artist": "Powfu",
     "artwork": "https://samplesongs.netlify.app/album-arts/death-bed.jpg",
-    "url": "https://cdn.jsdelivr.net/gh/Anomgames/music-cdn/audio/sample2.mp3",
-    "id": "11"
+    "url": "https://samplesongs.netlify.app/Death%20Bed.mp3",
+    "id": "1"
   },
   {
-    "title": "Rainy Sidewalk",
-    "artist": "DreamThief",
+    "title": "Bad Liar",
+    "artist": "Imagine Dragons",
     "artwork": "https://samplesongs.netlify.app/album-arts/bad-liar.jpg",
-    "url": "https://cdn.jsdelivr.net/gh/Anomgames/music-cdn/audio/sample5.mp3",
-    "id": "12"
+    "url": "https://samplesongs.netlify.app/Bad%20Liar.mp3",
+    "id": "2"
   },
   {
-    "title": "Night Drive",
-    "artist": "BeatRoute",
+    "title": "Faded",
+    "artist": "Alan Walker",
     "artwork": "https://samplesongs.netlify.app/album-arts/faded.jpg",
-    "url": "https://cdn.jsdelivr.net/gh/Anomgames/music-cdn/audio/sample7.mp3",
-    "id": "13"
+    "url": "https://samplesongs.netlify.app/Faded.mp3",
+    "id": "3"
   },
   {
-    "title": "Ocean Echoes",
-    "artist": "Synthwave Tales",
+    "title": "Hate Me",
+    "artist": "Ellie Goulding",
     "artwork": "https://samplesongs.netlify.app/album-arts/hate-me.jpg",
-    "url": "https://cdn.jsdelivr.net/gh/Anomgames/music-cdn/audio/sample8.mp3",
-    "id": "14"
+    "url": "https://samplesongs.netlify.app/Hate%20Me.mp3",
+    "id": "4"
   },
   {
-    "title": "Dream Loop",
-    "artist": "Noir Cloud",
+    "title": "Solo",
+    "artist": "Clean Bandit",
     "artwork": "https://samplesongs.netlify.app/album-arts/solo.jpg",
-    "url": "https://cdn.jsdelivr.net/gh/Anomgames/music-cdn/audio/sample9.mp3",
-    "id": "15"
+    "url": "https://samplesongs.netlify.app/Solo.mp3",
+    "id": "5"
   },
   {
-    "title": "Dust & Echo",
-    "artist": "LoFiDust",
-    "artwork": "https://samplesongs.netlify.app/album-arts/death-bed.jpg",
-    "url": "https://cdn.jsdelivr.net/gh/Anomgames/music-cdn/audio/sample10.mp3",
-    "id": "16"
+    "title": "Without Me",
+    "artist": "Halsey",
+    "artwork": "https://samplesongs.netlify.app/album-arts/without-me.jpg",
+    "url": "https://samplesongs.netlify.app/Without%20Me.mp3",
+    "id": "6"
   },
   {
-    "title": "Twilight Call",
-    "artist": "Anom Lights",
-    "artwork": "https://samplesongs.netlify.app/album-arts/bad-liar.jpg",
-    "url": "https://cdn.jsdelivr.net/gh/Anomgames/music-cdn/audio/sample11.mp3",
-    "id": "17"
+    "title": "Neon Dreams",
+    "artist": "ByAnoFy",
+    "artwork": "https://samplesongs.netlify.app/album-arts/without-me.jpg",
+    "url": "https://filesamples.com/samples/audio/mp3/sample3.mp3",
+    "id": "7"
   },
   {
-    "title": "Retro Pulse",
-    "artist": "Echo Sunset",
-    "artwork": "https://samplesongs.netlify.app/album-arts/faded.jpg",
-    "url": "https://cdn.jsdelivr.net/gh/Anomgames/music-cdn/audio/sample12.mp3",
-    "id": "18"
+    "title": "Midnight Flow",
+    "artist": "Anom Beats",
+    "artwork": "https://samplesongs.netlify.app/album-arts/without-me.jpg",
+    "url": "https://filesamples.com/samples/audio/mp3/sample1.mp3",
+    "id": "8"
   },
   {
-    "title": "Vapor Nights",
-    "artist": "BYAS Chill",
-    "artwork": "https://samplesongs.netlify.app/album-arts/hate-me.jpg",
-    "url": "https://cdn.jsdelivr.net/gh/Anomgames/music-cdn/audio/sample13.mp3",
-    "id": "19"
+    "title": "Golden Hour",
+    "artist": "AnomSunset",
+    "artwork": "https://samplesongs.netlify.app/album-arts/without-me.jpg",
+    "url": "https://filesamples.com/samples/audio/mp3/sample6.mp3",
+    "id": "9"
   },
   {
-    "title": "Flowstate",
-    "artist": "Chroma Beats",
-    "artwork": "https://samplesongs.netlify.app/album-arts/solo.jpg",
-    "url": "https://cdn.jsdelivr.net/gh/Anomgames/music-cdn/audio/sample14.mp3",
-    "id": "20"
+    "title": "Chill Drift",
+    "artist": "BYAS Mode",
+    "artwork": "https://samplesongs.netlify.app/album-arts/without-me.jpg",
+    "url": "https://filesamples.com/samples/audio/mp3/sample4.mp3",
+    "id": "10"
   }
 ]
