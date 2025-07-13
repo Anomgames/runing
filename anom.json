@@ -73,21 +73,21 @@
     "id": "11",
     "title": "Aşk Laftan Anlamaz",
     "artist": "Emrah",
-    "artwork": "https://cdn.jsdelivr.net/gh/Anomgames/muzik-cdn/emrah.jpg",
+    "artwork": "https://samplesongs.netlify.app/album-arts/faded.jpg",
     "url": "https://cdn.jsdelivr.net/gh/Anomgames/muzik-cdn/ask-laftan-anlamaz.mp3"
   },
   {
     "id": "12",
     "title": "Resimdeki Gözyaşları",
     "artist": "Cem Karaca",
-    "artwork": "https://cdn.jsdelivr.net/gh/Anomgames/muzik-cdn/cemkaraca.jpg",
+    "artwork": "https://samplesongs.netlify.app/album-arts/faded.jpg",
     "url": "https://cdn.jsdelivr.net/gh/Anomgames/muzik-cdn/resimdeki.mp3"
   },
   {
     "id": "13",
     "title": "İstanbul",
     "artist": "Teoman",
-    "artwork": "https://cdn.jsdelivr.net/gh/Anomgames/muzik-cdn/teoman.jpg",
+    "artwork": "https://samplesongs.netlify.app/album-arts/faded.jpg",
     "url": "https://cdn.jsdelivr.net/gh/Anomgames/muzik-cdn/istanbul.mp3"
   }
 ]
