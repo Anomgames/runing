@@ -7,7 +7,7 @@ const playlistEl = document.getElementById("playlist");
 
     async function loadSongs() {
       try {
-        const res = await fetch("https://raw.githubusercontent.com/ShivamJoker/sample-songs/refs/heads/master/data.json");
+        const res = await fetch("https://raw.githubusercontent.com/Anomgames/runing/refs/heads/main/anom.json");
         if (!res.ok) throw new Error("Sunucu hatası: " + res.status);
         const data = await res.json();
         if (!Array.isArray(data)) throw new Error("Veri dizisi bekleniyordu.");
