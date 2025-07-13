@@ -1,72 +1,142 @@
 [
   {
-    "title": "Death Bed",
-    "artist": "Powfu",
+    "title": "Coffee Break",
+    "artist": "LoFlow",
     "artwork": "https://samplesongs.netlify.app/album-arts/death-bed.jpg",
-    "url": "https://samplesongs.netlify.app/Death%20Bed.mp3",
-    "id": "1"
+    "url": "https://filesamples.com/samples/audio/mp3/sample2.mp3",
+    "id": "11"
   },
   {
-    "title": "Bad Liar",
-    "artist": "Imagine Dragons",
+    "title": "Rainy Sidewalk",
+    "artist": "DreamThief",
     "artwork": "https://samplesongs.netlify.app/album-arts/bad-liar.jpg",
-    "url": "https://samplesongs.netlify.app/Bad%20Liar.mp3",
-    "id": "2"
+    "url": "https://filesamples.com/samples/audio/mp3/sample5.mp3",
+    "id": "12"
   },
   {
-    "title": "Faded",
-    "artist": "Alan Walker",
+    "title": "Night Drive",
+    "artist": "BeatRoute",
     "artwork": "https://samplesongs.netlify.app/album-arts/faded.jpg",
-    "url": "https://samplesongs.netlify.app/Faded.mp3",
-    "id": "3"
+    "url": "https://filesamples.com/samples/audio/mp3/sample7.mp3",
+    "id": "13"
   },
   {
-    "title": "Hate Me",
-    "artist": "Ellie Goulding",
+    "title": "Ocean Echoes",
+    "artist": "Synthwave Tales",
     "artwork": "https://samplesongs.netlify.app/album-arts/hate-me.jpg",
-    "url": "https://samplesongs.netlify.app/Hate%20Me.mp3",
-    "id": "4"
+    "url": "https://filesamples.com/samples/audio/mp3/sample8.mp3",
+    "id": "14"
   },
   {
-    "title": "Solo",
-    "artist": "Clean Bandit",
+    "title": "Dream Loop",
+    "artist": "Noir Cloud",
     "artwork": "https://samplesongs.netlify.app/album-arts/solo.jpg",
-    "url": "https://samplesongs.netlify.app/Solo.mp3",
-    "id": "5"
+    "url": "https://filesamples.com/samples/audio/mp3/sample9.mp3",
+    "id": "15"
   },
   {
-    "title": "Without Me",
-    "artist": "Halsey",
-    "artwork": "https://samplesongs.netlify.app/album-arts/without-me.jpg",
-    "url": "https://samplesongs.netlify.app/Without%20Me.mp3",
-    "id": "6"
+    "title": "Dust & Echo",
+    "artist": "LoFiDust",
+    "artwork": "https://samplesongs.netlify.app/album-arts/death-bed.jpg",
+    "url": "https://filesamples.com/samples/audio/mp3/sample10.mp3",
+    "id": "16"
   },
   {
-    "title": "Neon Dreams",
-    "artist": "ByAnoFy",
-    "artwork": "https://samplesongs.netlify.app/album-arts/without-me.jpg",
-    "url": "https://filesamples.com/samples/audio/mp3/sample3.mp3",
-    "id": "7"
+    "title": "Twilight Call",
+    "artist": "Anom Lights",
+    "artwork": "https://samplesongs.netlify.app/album-arts/bad-liar.jpg",
+    "url": "https://filesamples.com/samples/audio/mp3/sample11.mp3",
+    "id": "17"
   },
   {
-    "title": "Midnight Flow",
-    "artist": "Anom Beats",
-    "artwork": "https://samplesongs.netlify.app/album-arts/without-me.jpg",
-    "url": "https://filesamples.com/samples/audio/mp3/sample1.mp3",
-    "id": "8"
+    "title": "Retro Pulse",
+    "artist": "Echo Sunset",
+    "artwork": "https://samplesongs.netlify.app/album-arts/faded.jpg",
+    "url": "https://filesamples.com/samples/audio/mp3/sample12.mp3",
+    "id": "18"
   },
   {
-    "title": "Golden Hour",
-    "artist": "AnomSunset",
-    "artwork": "https://samplesongs.netlify.app/album-arts/without-me.jpg",
-    "url": "https://filesamples.com/samples/audio/mp3/sample6.mp3",
-    "id": "9"
+    "title": "Vapor Nights",
+    "artist": "BYAS Chill",
+    "artwork": "https://samplesongs.netlify.app/album-arts/hate-me.jpg",
+    "url": "https://filesamples.com/samples/audio/mp3/sample13.mp3",
+    "id": "19"
   },
   {
-    "title": "Chill Drift",
-    "artist": "BYAS Mode",
-    "artwork": "https://samplesongs.netlify.app/album-arts/without-me.jpg",
-    "url": "https://filesamples.com/samples/audio/mp3/sample4.mp3",
-    "id": "10"
+    "title": "Flowstate",
+    "artist": "Chroma Beats",
+    "artwork": "https://samplesongs.netlify.app/album-arts/solo.jpg",
+    "url": "https://filesamples.com/samples/audio/mp3/sample14.mp3",
+    "id": "20"
+  },
+  {
+    "title": "Pixel Drift",
+    "artist": "GlitchMode",
+    "artwork": "https://samplesongs.netlify.app/album-arts/death-bed.jpg",
+    "url": "https://filesamples.com/samples/audio/mp3/sample15.mp3",
+    "id": "21"
+  },
+  {
+    "title": "Ambient Rise",
+    "artist": "Aurora Tone",
+    "artwork": "https://samplesongs.netlify.app/album-arts/bad-liar.jpg",
+    "url": "https://filesamples.com/samples/audio/mp3/sample16.mp3",
+    "id": "22"
+  },
+  {
+    "title": "Soft Signals",
+    "artist": "Cloudline",
+    "artwork": "https://samplesongs.netlify.app/album-arts/faded.jpg",
+    "url": "https://filesamples.com/samples/audio/mp3/sample17.mp3",
+    "id": "23"
+  },
+  {
+    "title": "Sonic Bloom",
+    "artist": "SynthVerse",
+    "artwork": "https://samplesongs.netlify.app/album-arts/hate-me.jpg",
+    "url": "https://filesamples.com/samples/audio/mp3/sample18.mp3",
+    "id": "24"
+  },
+  {
+    "title": "Echo Silence",
+    "artist": "LoNight",
+    "artwork": "https://samplesongs.netlify.app/album-arts/solo.jpg",
+    "url": "https://filesamples.com/samples/audio/mp3/sample19.mp3",
+    "id": "25"
+  },
+  {
+    "title": "Moonlight Archive",
+    "artist": "LoFi Dust",
+    "artwork": "https://samplesongs.netlify.app/album-arts/death-bed.jpg",
+    "url": "https://filesamples.com/samples/audio/mp3/sample20.mp3",
+    "id": "26"
+  },
+  {
+    "title": "Digital Calm",
+    "artist": "PulseField",
+    "artwork": "https://samplesongs.netlify.app/album-arts/bad-liar.jpg",
+    "url": "https://filesamples.com/samples/audio/mp3/sample21.mp3",
+    "id": "27"
+  },
+  {
+    "title": "Cloud Run",
+    "artist": "Zen Drift",
+    "artwork": "https://samplesongs.netlify.app/album-arts/faded.jpg",
+    "url": "https://filesamples.com/samples/audio/mp3/sample22.mp3",
+    "id": "28"
+  },
+  {
+    "title": "Wave Pulse",
+    "artist": "ChillFlex",
+    "artwork": "https://samplesongs.netlify.app/album-arts/hate-me.jpg",
+    "url": "https://filesamples.com/samples/audio/mp3/sample23.mp3",
+    "id": "29"
+  },
+  {
+    "title": "Silken Tides",
+    "artist": "EchoByrd",
+    "artwork": "https://samplesongs.netlify.app/album-arts/solo.jpg",
+    "url": "https://filesamples.com/samples/audio/mp3/sample24.mp3",
+    "id": "30"
   }
 ]
