@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ByKapimdaStore</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Montserrat', sans-serif; }
+    body { background: #0d0d0d; color: #f0f0f0; }
+
+    header { 
+      background: linear-gradient(90deg, #000 0%, #1a1a1a 100%);
+      padding: 20px; 
+      text-align: center; 
+      box-shadow: 0 2px 15px rgba(0,0,0,0.7); 
+      position: relative;
+    }
+
+    /* Logo sağ üstte animasyonlu */
+    .logo-img {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      animation: floatLogo 3s ease-in-out infinite;
+      box-shadow: 0 0 20px rgba(0,255,102,0.9);
+      cursor: pointer;
+      transition: transform 0.3s ease;
+      border: 2px solid #00ff66;
+    }
+
+    .logo-img:hover {
+      transform: scale(1.1) rotate(5deg);
+    }
+
+    @keyframes floatLogo {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+
+    nav {
+      background: #111;
+      display: flex;
+      justify-content: center;
+      padding: 12px 20px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    }
+
+    nav a {
+      color: #f0f0f0;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      position: relative;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #00ff66;
+    }
+
+    nav a::after {
+      content: "";
+      position: absolute;
+      bottom: -4px; left: 0;
+      width: 0; height: 2px;
+      background: #00ff66;
+      transition: width 0.3s;
+    }
+
+    nav a:hover::after {
+      width: 100%;
+    }
+
+    .search-container {
+      position: fixed;
+      top: 15px;
+      left: 15px;
+      z-index: 1000;
+    }
+
+    .search-icon {
+      font-size: 18px;
+      cursor: pointer;
+      color: #00ff66;
+      background: #1a1a1a;
+      padding: 6px;
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgba(0,255,102,0.6);
+      transition: transform 0.3s ease;
+    }
+
+    .search-icon:hover {
+      transform: rotate(15deg) scale(1.1);
+    }
+
+    .search-box {
+      position: fixed;
+      top: 15px;
+      left: 60px;
+      display: flex;
+      align-items: center;
+      background: #111;
+      padding: 8px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      transform: translateX(-200%);
+      opacity: 0;
+      transition: transform 0.4s ease, opacity 0.4s ease;
+      z-index: 1001;
+    }
+
+    .search-box.active {
+      transform: translateX(0);
+      opacity: 1;
+    }
+
+    .search-box input {
+      width: 180px;
+      padding: 8px;
+      border: none;
+      border-radius: 5px;
+      outline: none;
+      font-size: 14px;
+      margin-right: 8px;
+      background: #222;
+      color: #fff;
+    }
+
+    .search-box button {
+      padding: 8px 12px;
+      background: #00ff66;
+      color: #000;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+    .search-box button:hover {
+      background: #00cc55;
+      transform: scale(1.05);
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .card {
+      background: #1a1a1a;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 25px rgba(0,255,102,0.5);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+
+    .card:hover img {
+      transform: scale(1.05);
+    }
+
+    .card-content {
+      padding: 15px;
+    }
+
+    .card-content h3 {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+      color: #00ff66;
+    }
+
+    .card-content p {
+      font-size: 0.9em;
+      color: #bbb;
+    }
+
+    .card-content button {
+      margin-top: 10px;
+      padding: 10px;
+      background: #00ff66;
+      color: #000;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease, transform 0.2s ease;
+      font-weight: bold;
+    }
+
+    .card-content button:hover {
+      background: #00cc55;
+      transform: scale(1.05);
+    }
+
+    footer {
+      background: #000;
+      color: #777;
+      text-align: center;
+      padding: 20px;
+      border-top: 2px solid #111;
+    }
+
+    @media (max-width: 600px) {
+      nav { flex-direction: column; align-items: flex-start; }
+      .search-box input { width: 90%; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <!-- SAĞ ÜST LOGO -->
+    <img class="logo-img" src="https://i.postimg.cc/sDWB7g2s/441396577-972242121148959-6616994256180750385-n-webp.jpg" alt="Logo">
+  </header>
+
+  <nav>
+    <div>
+      <a href="#">Anasayfa</a>
+      <a href="#">Ürünler</a>
+      <a href="#">Sepet</a>
+      <a href="#">İletişim</a>
+    </div>
+  </nav>
+
+  <div class="search-container">
+    <span class="search-icon" onclick="toggleSearch()">🔎</span>
+  </div>
+  <div class="search-box" id="searchBox">
+    <input type="text" placeholder="Ürün ara..." />
+    <button onclick="searchProduct()">Ara</button>
+  </div>
+
+  <section class="products">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1606813909357-4b3b2c3c6e4e" alt="kapı 1">
+      <div class="card-content">
+        <h3>Fiyat :13.879 TL</h3>
+        <p>Günlük stilin için rahat ve şık.</p>
+        <button onclick="alert('Sepete eklendi!')">Sepete Ekle</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1618354691228-3f6b9e3b7e3d" alt="kapı 2">
+      <div class="card-content">
+        <h3>Fiyat :13.878 TL</h3>
+        <p>Vintage dokunuşlarla modern tasarım.</p>
+        <button onclick="alert('Sepete eklendi!')">Sepete Ekle</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 ByKapimdaStore. Tüm hakları saklıdır.
+  </footer>
+
+  <script>
+    function toggleSearch() {
+      const box = document.getElementById('searchBox');
+      box.classList.toggle('active');
+    }
+
+    function searchProduct() {
+      const query = document.querySelector('#searchBox input').value;
+      alert(`"${query}" için arama yapılıyor...`);
+    }
+  </script>
+
+</body>
+</html>
